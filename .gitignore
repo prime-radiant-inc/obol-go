@@ -1,0 +1,8 @@
+# Go build/test cruft (native libs are committed intentionally for go:embed — do not ignore them)
+*.test
+*.out
+/coverage.txt
+
+# Editor / OS
+.DS_Store
+*.swp
